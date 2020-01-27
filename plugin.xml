@@ -10,7 +10,7 @@
     <license>MIT License, see LICENSE.md for details</license>
 
     <engines>
-        <engine name="cordova" version=">=9.0.0"/>
+        <engine name="cordova" version=">=8.0.0"/>
         <engine name="cordova-android" version=">=7.0.0"/>
         <engine name="cordova-ios" version=">=5.0.0"/>
     </engines>
@@ -31,7 +31,7 @@
         <!-- Plugin implementation -->
         <header-file src="src/ios/CardIOCordovaPlugin.h" />
         <source-file src="src/ios/CardIOCordovaPlugin.m" />
-        
+
         <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
